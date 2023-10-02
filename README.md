@@ -28,8 +28,12 @@
 11. Keamanan: Firewall dan praktik keamanan.
 12. Logging dan Monitoring: Konfigurasi logging dan pemantauan.
 
-#### Proses Instalasi :
-
+#### Proses Instalasi Perangkat Lunak :
+1. Unduh **I-Course Center** ke dalam direktori kita.
+    ```
+    https://github.com/shishimeow/proyek-akhir-rpl-kel4.git
+    ```
+    
 # Konfigurasi
 [`^ kembali ke atas ^`](#)
 
