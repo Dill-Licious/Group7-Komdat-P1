@@ -148,13 +148,14 @@ Langkah-langkah:
 
 **I-Course Center** merupakan sebuah web application yang dikembangkan dengan PHP untuk pembuatan halaman dinamis, koneksi dengan basis data, pembuatan dan pengelolaan file, pembuatan API dan layanan web, manajemen gambar dan multimedia. JavaScript juga digunakan untuk interaksi pengguna, manipulasi DOM, validasi dan verifikasi input, dan pengembangan aplikasi web. Framework yang digunakan adalah Laravel dan Bootstrap.
 Website **I-Course Center** menawarkan berbagai kelebihan diantaranya:
-* 1
-* 2
-* 3
+* Penggunaan JavaScript untuk interaksi pengguna membuat aplikasi memiliki desain yang responsive dan dapat disesuaikan dalam berbagai jenis perangkat.
+* Kemudahan dalam penggunaan berbagai fitur sehingga efektif dalam mengelola berbagai informasi yang dimasukkan oleh pengguna
+* Panel administrasi sederhana dan fleksibel yang memberikan kemudahan dalam mengatur kebutuhan pengguna
+  
 Namun terdapat juga kekurangan yang didapati seperti:
-* 1
-* 2
-* 3
+* Keterbatasan dalam penggunaan memori yang cukup besar sehingga belum bisa mengatasi jumlah pengguna yang banyak
+* Layanan hosting gratis yang memiliki tingkat keamanan yang rendah sehingga berisiko terhadap keamanan data mahasiswa dan pengguna
+
   
 
 # Referensi
