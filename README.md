@@ -1,5 +1,7 @@
 # Group7-Komdat-P1
 
+<h1 align="center"><img src="https://drive.google.com/file/d/1F2rAHwHN4ka4H5pHPfnW7ZSVOyv210AQ/view?usp=sharing"></h1>
+
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:|:---:
 
