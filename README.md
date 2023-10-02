@@ -69,6 +69,25 @@
 # Hosting
 [`^ kembali ke atas ^`](#)
 
+Belom dirapihin ya
+1. buat akun di website 00Webhosting.
+2. upload file projet di file manager
+3. untuk folder public_html, berisikam file folder public, dan file-file lainnya dibuat folder baru diluar public_html. //dicontohkan nama folder diluar public_html diberi nama "laravel"
+4. dilakukan setting pada file env, 
+	a. mengganti app_url = url dari hosting 
+	a. mengganti DB_Host = localhost
+	b. DB_database = disesuaikan nama databasenya
+	c. DB_password = disesuaikan pw databasenya
+5.dilakukan setting pada folder public_html file index.php /index.html
+	a. menambahkan nama folder "laravel"
+
+======== bagian database ===========
+1. click database manager untuk setting database
+1. melakukan ekspor terlebih dahulu database yang sudah dibuat di localhost.
+2. buat new database, masukan input nama database, username database, dan password database *harus dingat/dicatat.
+3. setelah membuat database baru click phpmyadmin untuk setting database barunya
+3. lakukan import di database yang baru/telah dibuat.
+
 # Konfigurasi
 [`^ kembali ke atas ^`](#)
 
