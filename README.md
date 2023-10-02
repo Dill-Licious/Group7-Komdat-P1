@@ -11,6 +11,8 @@
 
 **I-Course Center** merupakan platform berupa WebApps yang diperuntukan untuk mahasiswa IPB University dalam mempertimbangkan pengambilan keputusan memilih SC/MBKM dengan adanya referensi yang disajikan dan forum diskusi antar mahasiswa. I-Course Center dirancang sebagai web application dengan menggunakan HTML, CSS, PHP, JavaScript, MySQL, XAMPP, serta framework Laravel dan Bootstrap. Fitur-fitur yang disediakan meliputi pencarian referensi SC/MBKM tambahan, preview mata kuliah, dan fasilitas diskusi untuk semua user. 
 
+Akses I-Course Center melalui : `https://komdat7jaya.000webhostapp.com/`
+
 # Instalasi
 [`^ kembali ke atas ^`](#)
 
@@ -56,7 +58,8 @@
    php artisan migrate --seed
    ```
 
-   Biasanya, aplikasi yang sudah jadi tidak hanya menyediakan file-file migrations tapi juga file-file seeder untuk data table yang ada di folder database/seeds sehingga kita perlu memasukkannya ke dalam table dengan perintah:
+   Biasanya, aplikasi yang sudah jadi tidak hanya menyediakan file-file migrations tapi juga file-file seeder untuk data table yang ada di folder database/seeds sehingga 
+   kita perlu memasukkannya ke dalam table dengan perintah:
    ```
    php artisan db:seed
    ```
@@ -69,9 +72,11 @@
 # Hosting
 [`^ kembali ke atas ^`](#)
 
-Belom dirapihin ya
-1. buat akun di website 00Webhosting.
-2. upload file projet di file manager
+**Layanan hosting yang digunakan: 000webhost powerd by hostinger** 
+
+**Step Hosting Website I-Course Center:**
+1. Buat akun dan registrasi melalui website https://www.000webhost.com/
+2. Upload file projet di file manager
 3. untuk folder public_html, berisikam file folder public, dan file-file lainnya dibuat folder baru diluar public_html. //dicontohkan nama folder diluar public_html diberi nama "laravel"
 4. dilakukan setting pada file env, 
 	a. mengganti app_url = url dari hosting 
