@@ -13,6 +13,18 @@
 [`^ kembali ke atas ^`](#)
 
 #### Kebutuhan Sistem :
+1.  Sistem Operasi: Unix/Linux atau Windows Server.
+2.  Web Server: Apache (disarankan) atau Nginx.
+3.  PHP: Versi 7.4+ dengan ekstensi yang diperlukan.
+4.  Database: MySQL 5.7+ (disarankan) atau alternatif lainnya.
+5.  Composer: Instal Composer di server.
+6.  Memory (RAM): Minimal 512MB.
+7.  Storage: Cukup ruang penyimpanan.
+8.  SSL Certificate: Disarankan untuk HTTPS.
+9.  Caching: Redis/memcached untuk kinerja.
+10. Scheduled Tasks: Konfigurasi tugas cron.
+11. Keamanan: Firewall dan praktik keamanan.
+12. Logging dan Monitoring: Konfigurasi logging dan pemantauan.
 
 #### Proses Instalasi :
 
