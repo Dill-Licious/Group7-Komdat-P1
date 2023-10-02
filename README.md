@@ -77,6 +77,7 @@ Akses I-Course Center melalui : `https://komdat7jaya.000webhostapp.com/`
 **Step Hosting Website I-Course Center:**
 1. Buat akun dan registrasi melalui website https://www.000webhost.com/
 2. Upload file projet di file manager
+   
 3. untuk folder public_html, berisikam file folder public, dan file-file lainnya dibuat folder baru diluar public_html. //dicontohkan nama folder diluar public_html diberi nama "laravel"
 4. dilakukan setting pada file env, 
 	a. mengganti app_url = url dari hosting 
