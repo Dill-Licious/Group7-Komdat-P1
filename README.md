@@ -2,8 +2,8 @@
 
 <h1 align="center"><img src="Dokumentasi/Cover.jpg"></h1>
 
-[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Hosting](#hosting) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
-:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
+[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Hosting](#hosting) | [Konfigurasi](#konfigurasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
+:---:|:---:|:---:|:---:|:---:|:---:|:---:
 
 Akses I-Course Center melalui : `https://komdat7jaya.000webhostapp.com/`
 
@@ -34,40 +34,33 @@ Akses I-Course Center melalui : `https://komdat7jaya.000webhostapp.com/`
     ```
     git clone https://github.com/shishimeow/proyek-akhir-rpl-kel4.git
     ```
-
 2. Setelah diekstrak, kita perlu membuat file `.env` berdasarkan dari file `.env.example`, caranya jalankan perintah:
     ```
     copy .env.example .env
     ```
-
 3. Instal package-package yang diinstal dalam composer di mana package tersebut akan disimpan dalam folder vendor. Jalankan
    perintah berikut di dalam command prompt atau terminal:
    ```
    composer install
    ```
-
    Setelah berhasil membuat file `.env`, berikutnya jalankan perintah berikut:
    ```
    php artisan key:generate
    ```
-
 4. Kemudian sesuaikan nama database, username, dan password database di file `.env` 
    Jalankan perintah berikut di dalam command prompt atau terminal:
    ```
    php artisan migrate --seed
    ```
-
    Biasanya, aplikasi yang sudah jadi tidak hanya menyediakan file-file migrations tapi juga file-file seeder untuk data table yang ada di folder database/seeds sehingga 
    kita perlu memasukkannya ke dalam table dengan perintah:
    ```
    php artisan db:seed
    ```
-
 5. Terakhir, untuk membukanya di web browser, jalankan perintah:
    ```
    php artisan serve
    ```
-
 # Hosting
 [`^ Back to Top ^`](#)
 
@@ -145,5 +138,5 @@ Cara pemakaian sangatlah mudah, berikut penjelasannya:
 
 # Referensi
 [`^ kembali ke atas ^`](#)
-
+- [Cara menjalankan aplikasi laravel](https://www.cafeteria.id/2018/08/cara-menjalankan-aplikasi-laravel-hasil.html)
 
