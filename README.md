@@ -105,6 +105,8 @@ Akses I-Course Center melalui : `https://komdat7jaya.000webhostapp.com/`
 
 # Cara Pemakaian
 [`^ kembali ke atas ^`](#)
+Cara pemakaian sangatlah mudah, berikut penjelasannya:
+
 
 # Pembahasan
 [`^ kembali ke atas ^`](#)
