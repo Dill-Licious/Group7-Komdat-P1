@@ -146,6 +146,17 @@ Langkah-langkah:
 # Pembahasan
 [`^ kembali ke atas ^`](#)
 
+**I-Course Center** merupakan sebuah web application yang dikembangkan dengan PHP untuk pembuatan halaman dinamis, koneksi dengan basis data, pembuatan dan pengelolaan file, pembuatan API dan layanan web, manajemen gambar dan multimedia. JavaScript juga digunakan untuk interaksi pengguna, manipulasi DOM, validasi dan verifikasi input, dan pengembangan aplikasi web. Framework yang digunakan adalah Laravel dan Bootstrap.
+Website **I-Course Center** menawarkan berbagai kelebihan diantaranya:
+* 1
+* 2
+* 3
+Namun terdapat juga kekurangan yang didapati seperti:
+* 1
+* 2
+* 3
+  
+
 # Referensi
 [`^ kembali ke atas ^`](#)
 - [Cara menjalankan aplikasi laravel](https://www.cafeteria.id/2018/08/cara-menjalankan-aplikasi-laravel-hasil.html)
