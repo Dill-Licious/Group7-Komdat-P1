@@ -29,11 +29,43 @@
 12. Logging dan Monitoring: Konfigurasi logging dan pemantauan.
 
 #### Proses Instalasi Perangkat Lunak :
-1. Unduh **I-Course Center** ke dalam direktori kita.
+1. Unduh atau clone **I-Course Center** ke dalam direktori kita. Jalankan perintah di bawah ini pada command prompt atau terminal:
     ```
-    https://github.com/shishimeow/proyek-akhir-rpl-kel4.git
+    git clone https://github.com/shishimeow/proyek-akhir-rpl-kel4.git
     ```
-    
+
+2. Kita perlu membuat file `.env` berdasarkan dari file `.env.example`, caranya jalankan perintah:
+    ```
+    copy .env.example .env
+    ```
+
+3. Instal package-package yang diinstal dalam composer di mana package tersebut akan disimpan dalam folder vendor. Jalankan
+   perintah berikut di dalam command prompt atau terminal:
+   ```
+   composer install
+   ```
+
+   Setelah berhasil membuat file `.env`, berikutnya jalankan perintah berikut:
+   ```
+   php artisan key:generate
+   ```
+
+4. Kemudian sesuaikan nama database, username, dan password database di file `.env` 
+   Jalankan perintah berikut di dalam command prompt atau terminal:
+   ```
+   php artisan migrate --seed
+   ```
+
+   Biasanya, aplikasi yang sudah jadi tidak hanya menyediakan file-file migrations tapi juga file-file seeder untuk data table yang ada di folder database/seeds sehingga kita perlu memasukkannya ke dalam table dengan perintah:
+   ```
+   php artisan db:seed
+   ```
+
+5. Terakhir, untuk membukanya di web browser, jalankan perintah:
+   ```
+   php artisan serve
+   ```
+
 # Konfigurasi
 [`^ kembali ke atas ^`](#)
 
