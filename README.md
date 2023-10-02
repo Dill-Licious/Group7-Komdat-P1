@@ -5,16 +5,17 @@
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Hosting](#hosting) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
 
+Akses I-Course Center melalui : `https://komdat7jaya.000webhostapp.com/`
 
 # Sekilas Tentang
-[`^ kembali ke atas ^`](#)
+[`^ Back to Top ^`](#)
 
 **I-Course Center** merupakan platform berupa WebApps yang diperuntukan untuk mahasiswa IPB University dalam mempertimbangkan pengambilan keputusan memilih SC/MBKM dengan adanya referensi yang disajikan dan forum diskusi antar mahasiswa. I-Course Center dirancang sebagai web application dengan menggunakan HTML, CSS, PHP, JavaScript, MySQL, XAMPP, serta framework Laravel dan Bootstrap. Fitur-fitur yang disediakan meliputi pencarian referensi SC/MBKM tambahan, preview mata kuliah, dan fasilitas diskusi untuk semua user. 
 
 Akses I-Course Center melalui : `https://komdat7jaya.000webhostapp.com/`
 
 # Instalasi
-[`^ kembali ke atas ^`](#)
+[`^ Back to Top ^`](#)
 
 #### Kebutuhan Sistem :
 1.  Sistem Operasi: Unix/Linux atau Windows Server.
@@ -26,9 +27,7 @@ Akses I-Course Center melalui : `https://komdat7jaya.000webhostapp.com/`
 7.  Storage: Cukup ruang penyimpanan.
 8.  SSL Certificate: Disarankan untuk HTTPS.
 9.  Caching: Redis/memcached untuk kinerja.
-10. Scheduled Tasks: Konfigurasi tugas cron.
-11. Keamanan: Firewall dan praktik keamanan.
-12. Logging dan Monitoring: Konfigurasi logging dan pemantauan.
+10.  Keamanan: Firewall dan praktik keamanan.
 
 #### Proses Instalasi Perangkat Lunak :
 1. Unduh atau clone **I-Course Center** ke dalam direktori kita. Jalankan perintah di bawah ini pada command prompt atau terminal:
@@ -70,36 +69,69 @@ Akses I-Course Center melalui : `https://komdat7jaya.000webhostapp.com/`
    ```
 
 # Hosting
-[`^ kembali ke atas ^`](#)
+[`^ Back to Top ^`](#)
 
-**Layanan hosting yang digunakan: 000webhost powerd by hostinger** 
+**Layanan hosting yang digunakan:** 000webhost powered by hostinger 
 
-**Step Hosting Website I-Course Center:**
+**Setting I-Course Center pada 000webhost:**
 1. Buat akun dan registrasi melalui website https://www.000webhost.com/
-2. Upload file projet di file manager
+2. Pada tampilan dashboard pilih section pada menu `File` dan klik `File Manager`. Kemudian upload seluruh file project I-Course Center
+   ![Image](Dokumentasi/Filemanager.jpeg) 
+3. Pindahkan semua file dan folder yang harus diakses oleh publik ke dalam folder `public_html`. Untuk source code atau file yang tidak perlu diakses secara langsung, buat folder baru di luar `public_html` dengan nama "laravel" dan letakkan file-file tersebut di sana. Pada contoh di bawah ini merupakan setting pada folder public_html file index.php /index.html
+   ![Image](Dokumentasi/Connect1.jpeg)
    
-3. untuk folder public_html, berisikam file folder public, dan file-file lainnya dibuat folder baru diluar public_html. //dicontohkan nama folder diluar public_html diberi nama "laravel"
-4. dilakukan setting pada file env, 
-	a. mengganti app_url = url dari hosting 
-	a. mengganti DB_Host = localhost
-	b. DB_database = disesuaikan nama databasenya
-	c. DB_password = disesuaikan pw databasenya
-5.dilakukan setting pada folder public_html file index.php /index.html
-	a. menambahkan nama folder "laravel"
+5. Pada file `.env` yang berisi berbagai pengaturan penting seperti informasi database, pengaturan cache, pengaturan email, dan banyak lagi dilakukan setting seperti:  
+   a. Ganti `APP_URL` dengan URL hosting.    
+   b. Sesuaikan `DB_HOST` dengan alamat server database (biasanya "localhost" jika di server yang sama).  
+   c. Sesuaikan `DB_DATABASE` dengan nama database.  
+   d. Sesuaikan `DB_PASSWORD` dengan kata sandi database.
+   ![Image](Dokumentasi/Connect2.jpeg)
 
-======== bagian database ===========
-1. click database manager untuk setting database
-1. melakukan ekspor terlebih dahulu database yang sudah dibuat di localhost.
-2. buat new database, masukan input nama database, username database, dan password database *harus dingat/dicatat.
-3. setelah membuat database baru click phpmyadmin untuk setting database barunya
-3. lakukan import di database yang baru/telah dibuat.
+**Setting database I-Course Center**
+1. Klik Database Manager: Untuk mengatur database, klik "Database Manager".
+2. Ekspor Database Lokal: Sebelumnya, ekspor database yang sudah ada di localhost.
+3. Buat Database Baru: Buat database baru dengan memasukkan nama, username, dan password. Ingat dan catat informasi ini.
+4. Set Database Baru: Klik "phpmyadmin" untuk mengatur database yang baru
+   ![Image](Dokumentasi/Database1.jpeg)  
+6. Impor Database: Import database yang telah Anda ekspor ke database baru
+   ![Image](Dokumentasi/Phpmyadmin1.jpeg)
 
 # Konfigurasi
-[`^ kembali ke atas ^`](#)
+[`^ Back to Top ^`](#)
+
+- Untuk melihat banyaknya dari segi user maupun SC/MBKM dapat melalui `Dashboard admin` yang dapat diakses melalui akun admin
+  ![Image](Dokumentasi/Dashboardadmin.jpg)
+- Untuk memperbaiki informasi atau Create, Read, Update, and Delete (CRUD)  baik dari SC/MBKM dapat melalui menu `Supporting Course (SC)` ataupun `Merdeka Bejalar Kampus Merdeka (MBKM)`
+  ![Image](Dokumentasi/SC.jpg)
+- Untuk memperbaiki informasi atau Create, Read, Update, and Delete (CRUD) dari Fakultas dapat melalui menu `Fakultas`
+  ![Image](Dokumentasi/Fakultas.jpg)
+- Untuk Create, Read, Update, and Delete (CRUD) user dapat melalui menu `List Akun`
+  ![Image](Dokumentasi/Listakun.jpg)
 
 # Maintenance
-[`^ kembali ke atas ^`](#)
+[`^ Back to Top ^`](#)
 
+Beberapa maintenance dilakukan pada I-Course Center:
+
+**1. Optimisasi Database:**
+
+Tujuan: Meningkatkan performa dan efisiensi database untuk mempercepat respon aplikasi dan mengurangi beban server.
+
+Langkah-langkah:
+- Mengidentifikasi query SQL yang lambat dan mengoptimasinya.
+- Memeriksa dan mengindeks kolom yang sering digunakan dalam query.
+- Menghapus data yang tidak diperlukan atau cadangan yang sudah usang.
+- Melakukan monitoring penggunaan sumber daya server dan melakukan tuning jika diperlukan.
+
+**2. Adress Link Backup:**
+
+Tujuan: Memastikan ketersediaan data dan konfigurasi aplikasi dalam kasus kegagalan atau kehilangan data.
+
+Langkah-langkah:
+- Melakukan backup rutin data dan file konfigurasi aplikasi.
+- Menyimpan cadangan di server terpisah atau layanan penyimpanan awan yang aman.
+- Mengatur jadwal backup otomatis yang konsisten.
+- Menguji pemulihan dari cadangan secara berkala untuk memastikan keberfungsian backup.
 # Otomatisasi
 [`^ kembali ke atas ^`](#)
 
