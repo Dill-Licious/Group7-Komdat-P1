@@ -2,7 +2,7 @@
 
 <h1 align="center"><img src="Dokumentasi/Cover.jpg"></h1>
 
-[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
+[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Hosting](#hosting) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:|:---:
 
 
@@ -34,7 +34,7 @@
     git clone https://github.com/shishimeow/proyek-akhir-rpl-kel4.git
     ```
 
-2. Kita perlu membuat file `.env` berdasarkan dari file `.env.example`, caranya jalankan perintah:
+2. Setelah diekstrak, kita perlu membuat file `.env` berdasarkan dari file `.env.example`, caranya jalankan perintah:
     ```
     copy .env.example .env
     ```
@@ -65,6 +65,9 @@
    ```
    php artisan serve
    ```
+
+# Hosting
+[`^ kembali ke atas ^`](#)
 
 # Konfigurasi
 [`^ kembali ke atas ^`](#)
