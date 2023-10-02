@@ -128,7 +128,19 @@ Langkah-langkah:
 
 # Cara Pemakaian
 [`^ kembali ke atas ^`](#)
-Cara pemakaian sangatlah mudah, berikut penjelasannya:
+
+**Cara pemakaian aplikasi terdapat pada penjelasan berikut:**
+
+1. Pada gambar ditunjukkan halaman yang akan pengguna kunjungi ketika pertama kali mengakses webApps I-Course Center. Tampilan ini hanya akan muncul jika pengguna belum melakukan login atau logout dari I-Course Center. Pada halaman ini, terdapat tiga bagian utama, yaitu bagian Home yang berisi informasi sederhana dari webApps, bagian deskripsi singkat mengenai webApps I-Course Center, dan bagian informasi mengenai pengembang dari webApps I-Course Center.
+2. Terdapat halaman registrasi atau sign up untuk mendaftarkan akun di webApps I-Course Center. Apabila data yang diterima (username atau email) sudah terdapat dalam database, pengguna tidak bisa mendaftarkan akun yang ditandai dengan munculnya notifikasi. Jika terjadi sebaliknya, pengguna akan langsung diarahkan ke halaman login dan muncul notifikasi yang menandakan registrasi berhasil dilakukan.
+3. Terdapat halaman login dari I-Course Center. Pengguna yang sudah memiliki akun dapat memasukkan data akun mereka berupa email atau username dan password yang dimiliki. Jika data yang dimasukkan tidak sesuai dengan yang tersimpan di database, pengguna tidak bisa masuk atau login dengan tanda munculnya notifikasi. Jika terjadi sebaliknya, pengguna akan langsung diarahkan ke halaman selanjutnya. Fitur remember me berfungsi untuk menyimpan token pengguna sehingga data login pengguna tidak akan ter-logout secara otomatis dalam jangka waktu yang sudah ditentukan.
+4. Setelah pengguna berhasil melakukan login maka akan berlanjut ke landing page. Halaman ini adalah halaman utama SC. Terdapat fitur search yang akan selalu tersedia di halaman-halaman lain. Pada halaman utama SC, pengguna dapat melakukan penyaringan atau filtering berdasarkan fakultas dan rating yang dimiliki oleh masing-masing SC. Rating ini diperoleh dari rata-rata rating yang diberikan oleh pengguna lain.
+5. Pada Gambar ditunjukkan halaman rincian dari SC yang dipilih. Rincian ini meliputi bobot SKS dan deskripsi mata kuliah. Terdapat juga fitur untuk menambahkan ulasan berupa review dan rating pribadi dari masing-masing pengguna. Fitur ini juga dimiliki oleh halaman rincian MBKM.
+6. Pada Gambar ditunjukkan halaman pemberian ulasan, komentar dan pemberian rating SC/MBKM oleh user. Terdapat juga forum diskusi  yang menerapkan nested comments sehingga setiap komentar dapat di reply oleh user lain. Terdapat juga fitur untuk hapus dan edit komentar yang sudah dikirim.
+7. Selanjutnya pengguna dapat melakukan penyaringan atau filtering berdasarkan periode mulai suatu MBKM dan rating yang dimiliki oleh masing-masing MBKM.
+8. Selanjutnya ditunjukkan halaman rincian dari MBKM yang dipilih. Rincian ini meliputi periode pendaftaran, benefit, position, dan requirements. Terdapat juga fitur untuk menambahkan ulasan berupa review dan rating pribadi dari masing-masing pengguna.
+9. Ketika pengguna menekan bagian settings maka pengguna dapat melakukan kelengkapan data, pembaruan data, dan menambahkan foto akun.
+10. Pada gambar ditunjukkan halaman dashboard admin. Pada halaman ini admin dapat melihat jumlah user, jumlah MBKM, jumlah SC dan jumlah review. Admin juga dapat menghapus review yang dikirimkan user pada menu SC maupun MBKM. 
 
 
 # Pembahasan
