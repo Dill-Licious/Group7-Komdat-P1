@@ -125,8 +125,6 @@ Langkah-langkah:
 - Menyimpan cadangan di server terpisah atau layanan penyimpanan awan yang aman.
 - Mengatur jadwal backup otomatis yang konsisten.
 - Menguji pemulihan dari cadangan secara berkala untuk memastikan keberfungsian backup.
-# Otomatisasi
-[`^ kembali ke atas ^`](#)
 
 # Cara Pemakaian
 [`^ kembali ke atas ^`](#)
