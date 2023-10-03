@@ -5,7 +5,7 @@
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Hosting](#hosting) | [Konfigurasi](#konfigurasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:|:---:
 
-Akses I-Course Center melalui : `https://komdat7jaya.000webhostapp.com/`
+Akses I-Course Center melalui : https://komdat7jaya.000webhostapp.com/
 
 # Sekilas Tentang
 [`^ Back to Top ^`](#)
