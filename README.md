@@ -190,7 +190,7 @@ Namun terdapat juga kekurangan yang didapati seperti:
 * Keterbatasan dalam penggunaan memori yang cukup besar sehingga belum bisa mengatasi jumlah pengguna yang banyak
 * Layanan hosting gratis yang memiliki tingkat keamanan yang rendah sehingga berisiko terhadap keamanan data mahasiswa dan pengguna
 
-**Comptetitor Analysis**  
+**Competitor Analysis**  
 Website yang hampir serupa dengan I-Course Center: https://www.ratemycourses.io/
 ![Image](Competitor/rate.jpeg)
 
@@ -218,4 +218,5 @@ Website yang hampir serupa dengan I-Course Center: https://www.ratemycourses.io/
 [`^ Back to Top ^`](#)
 - [Cara menjalankan aplikasi laravel](https://www.cafeteria.id/2018/08/cara-menjalankan-aplikasi-laravel-hasil.html) - Menjalankan projek
 - [Hosting melalui 000webhost](https://pemburukode.com/tutorial-hosting-cara-upload-website-di-000webhost/) - Cara hosting di 000webhost
+- [Rate My Courses](https://www.ratemycourses.io/) - Competitor
 
