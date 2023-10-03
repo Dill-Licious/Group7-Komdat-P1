@@ -190,8 +190,9 @@ Namun terdapat juga kekurangan yang didapati seperti:
 * Keterbatasan dalam penggunaan memori yang cukup besar sehingga belum bisa mengatasi jumlah pengguna yang banyak
 * Layanan hosting gratis yang memiliki tingkat keamanan yang rendah sehingga berisiko terhadap keamanan data mahasiswa dan pengguna
 
-**Comptetitor Analysis**
+**Comptetitor Analysis**  
 Website yang hampir serupa dengan I-Course Center: https://www.ratemycourses.io/
+![Image](Competitor/rate.jpeg)
 
 **Ratemycourse.io** adalah sebuah platform yang menyediakan ulasan dan penilaian kursus kuliah. Situs web ini memungkinkan mahasiswa untuk memberikan ulasan dan peringkat terhadap kursus-kursus yang mereka ambil dengan beragam pilihan universitas seperti University of Florida, Pardue University, dsb. Hal ini dapat membantu mahasiswa lain untuk memahami lebih baik tentang kursus-kursus tersebut sebelum mereka mendaftar.
 
@@ -206,6 +207,8 @@ Website yang hampir serupa dengan I-Course Center: https://www.ratemycourses.io/
 3. Jenis Konten:
 - Ratemycourse.io: Fokus pada ulasan dan peringkat kursus yang dikemas dalam 3 poin utama (Easiness, Interest, Usefulness) dan ratingnya dikemas dalam bentuk overall dengan warna-warna sesuai review pengguna. RatemyCourse.io juga menyediakan diskusi dan forum untuk pengguna.
 - I-Course Center: Memberikan informasi spesifik tentang program-program SC/MBKM di IPB University berbentuk rating dan forum diskusi untuk mahasiswa IPB.
+
+![Image](Competitor/Coursereview.jpg)
 
 4. Target Pengguna:
 - Ratemycourse.io: Terbuka untuk mahasiswa dari berbagai universitas di seluruh dunia.
